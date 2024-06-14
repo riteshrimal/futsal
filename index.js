@@ -5,7 +5,7 @@ const Reservation = require('./models/reservation'); // Adjust the path as per y
 
 const app = express();
 
-mongoose.connect('mongodb://localhost/futsal_booking');
+mongoose.connect("mongodb+srv://businesriteshrimal:sa6tTX5rYcFPEpnQ@ritesh.62l1wcx.mongodb.net/?retryWrites=true&w=majority&appName=ritesh");
 
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
